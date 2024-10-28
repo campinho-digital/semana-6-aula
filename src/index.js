@@ -34,7 +34,8 @@ function visualizarCarrinho() {
   alert(`Valor total do seu carrinho:\n\n${valorSubtotal}\n\nValor total = R$ ${valorTotal}.`);
   console.log(valorSubtotal);
   console.log(valorTotal);
-  // Adicionar forma de pagamento depois.
+  // A
+ // dicionar forma de pagamento depois.
   alert('Obrigada por escolher a Cacaulate! Até a próxima!');
 };
 
