@@ -54,7 +54,7 @@ while (executar = true) {
       continue;
   };
 
-  // Mostrar o preço do produto selecionado e selecionar a quantidade desejada.
+  // Mostrar o preço do produto selecionado e selecionar a quantidade desejada. 
   let quantidade = parseInt(prompt(`${produto.nome} - R$ ${produto.preco}/unidade.\nSelecione a quantidade desejada do produto:`));
   console.log('Quantidade escolhida: ', quantidade);
   if (isNaN(quantidade) || quantidade <= 0) {
